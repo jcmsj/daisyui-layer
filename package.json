@@ -1,0 +1,23 @@
+{
+  "name": "@jcsj/daisyui-layer",
+  "type": "module",
+  "version": "0.0.1",
+  "main": "./nuxt.config.ts",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nuxi dev .playground",
+    "build": "nuxt build .playground",
+    "generate": "nuxt generate .playground",
+    "preview": "nuxt preview .playground",
+    "lint": "eslint .",
+    "postinstall": "nuxt prepare .playground"
+  },
+  "devDependencies": {
+    "@nuxt/eslint-config": "^0.3.1",
+    "@nuxtjs/tailwindcss": "^6.11.4",
+    "daisyui": "^4.10.1",
+    "eslint": "^8.56.0",
+    "nuxt": "^3.11.2",
+    "typescript": "^5.4.4"
+  }
+}
